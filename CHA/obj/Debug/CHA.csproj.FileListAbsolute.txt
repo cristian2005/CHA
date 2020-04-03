@@ -1,0 +1,11 @@
+C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.Componentes.AlertaForm.resources
+C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.csproj.GenerateResource.cache
+C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.csproj.CoreCompileInputs.cache
+C:\Users\Critian Herrera\source\repos\CHA\CHA\bin\Debug\CHA.dll
+C:\Users\Critian Herrera\source\repos\CHA\CHA\bin\Debug\CHA.pdb
+C:\Users\Critian Herrera\source\repos\CHA\CHA\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.Properties.Resources.resources
+C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.csproj.CopyComplete
+C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.dll
+C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.pdb
+C:\Users\Critian Herrera\source\repos\CHA\CHA\bin\Debug\CHA.xml
