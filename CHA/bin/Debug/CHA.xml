@@ -99,6 +99,107 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="T:CHA.Componentes.Tipo">
+            <summary>
+            Tipo de alerta, si es success, tipo pregunta, tipo advertencia o tipo error.
+            </summary>
+        </member>
+        <member name="T:CHA.Componentes.Boton">
+            <summary>
+            Enumeracion para los botones
+            </summary>
+        </member>
+        <member name="T:CHA.Componentes.Resultado_Boton">
+            <summary>
+            Enumeracion que es el resultado del botón
+            </summary>
+        </member>
+        <member name="T:CHA.Componentes.Dialogo">
+            <summary>
+            Clase estática que muestra un cuadro de dialogo personalizado.
+            </summary>
+        </member>
+        <member name="F:CHA.Componentes.Dialogo.dialogo">
+            <summary>
+            Declarando variable a utilizar
+            </summary>
+        </member>
+        <member name="F:CHA.Componentes.Dialogo.Color_Form">
+            <summary>
+            Cambia el color del cuadro de dialogo, por defecto es blanco
+            </summary>
+        </member>
+        <member name="F:CHA.Componentes.Dialogo.Color_titulo">
+            <summary>
+            Cambia el color del titulo del cuadro de dialogo, por defecto es negro
+            </summary>
+        </member>
+        <member name="F:CHA.Componentes.Dialogo.Color_boton_Cerrar">
+            <summary>
+            Cambia el color del boton de cerrar el cuadro de dialogo, por defecto es negro
+            </summary>
+        </member>
+        <member name="F:CHA.Componentes.Dialogo.Color_descripcion">
+            <summary>
+            Cambia el color de la descripción del cuadro de dialogo, por defecto es negro
+            </summary>
+        </member>
+        <member name="F:CHA.Componentes.Dialogo.Sonido">
+            <summary>
+            Indica si el cuadro de dialogo tendra sonido al tipo de alerta, por defecto es verdadero
+            </summary>
+        </member>
+        <member name="F:CHA.Componentes.Dialogo.icono">
+            <summary>
+            Indica el icono que tendra el cuadro de dialogo
+            </summary>
+        </member>
+        <member name="M:CHA.Componentes.Dialogo.Mostrar(System.String,System.String)">
+            <summary>
+            Crea una alerta personalizado con los parámetros indicados.
+            </summary>
+            <param name="descripcion">Parámetro necesario para mostrar un mensaje al cuadro de diálogo.</param>
+            <param name="titulo">Parámetro necesario para mostrar un titulo al cuadro de diálogo.</param>
+        </member>
+        <member name="M:CHA.Componentes.Dialogo.Mostrar(System.String,System.String,CHA.Componentes.Tipo,CHA.Componentes.Boton)">
+            <summary>
+            Crea una alerta personalizado con los parámetros indicados.
+            </summary>
+            <param name="descripcion">Parámetro necesario para mostrar un mensaje al cuadro de diálogo.</param>
+            <param name="titulo">Parámetro necesario para mostrar un titulo al cuadro de diálogo.</param>
+            <param name="tipo">Parámetro Para saber que tipo será el cuadro de diálogo</param>
+            <param name="boton">Parámetro Para saber que tipo de botón de será el cuadro de diálogo</param>
+            <returns>Devuelve el boton del parámetro especificado.</returns>
+        </member>
+        <member name="M:CHA.Componentes.Dialogo.Mostrar(System.String,System.String,CHA.Componentes.Tipo,CHA.Componentes.Boton,System.String,System.String)">
+            <summary>
+            Crea una alerta personalizado con los parámetros indicados.
+            </summary>
+            <param name="descripcion">Parámetro necesario para mostrar un mensaje al cuadro de diálogo.</param>
+            <param name="titulo">Parámetro necesario para mostrar un titulo al cuadro de diálogo.</param>
+            <param name="tipo">Parámetro Para saber que tipo será el cuadro de diálogo</param>
+            <param name="boton">Parámetro Para saber que tipo de botón de será el cuadro de diálogo</param>
+            <param name="boton_personalizado">Cadena que quiere que muestre el botón, si es de tipo pregunta el botón a sustituir seria el "Sí"</param>
+            <param name="boton_negativo">Parametro no obligatorio, que es para el botón "No"</param>
+            <returns>Devuelve el boton_personalizado del parámetro especificado.</returns>
+        </member>
+        <member name="F:CHA.Componentes.Dialogos.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CHA.Componentes.Dialogos.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:CHA.Componentes.Dialogos.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="T:CHA.Properties.Resources">
             <summary>
               Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
@@ -170,6 +271,11 @@
               Busca un recurso adaptado de tipo System.Drawing.Bitmap.
             </summary>
         </member>
+        <member name="P:CHA.Properties.Resources.alerta">
+            <summary>
+              Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+            </summary>
+        </member>
         <member name="P:CHA.Properties.Resources.cancel">
             <summary>
               Busca un recurso adaptado de tipo System.Drawing.Bitmap.
@@ -178,6 +284,11 @@
         <member name="P:CHA.Properties.Resources.cerrar">
             <summary>
               Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources.Completadoaudio">
+            <summary>
+              Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
             </summary>
         </member>
         <member name="P:CHA.Properties.Resources.copyright">
@@ -195,9 +306,19 @@
               Busca un recurso adaptado de tipo System.Drawing.Bitmap.
             </summary>
         </member>
+        <member name="P:CHA.Properties.Resources.dT9rd798c">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
         <member name="P:CHA.Properties.Resources.equal">
             <summary>
               Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources.Error">
+            <summary>
+              Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
             </summary>
         </member>
         <member name="P:CHA.Properties.Resources.Info">
@@ -220,7 +341,27 @@
               Busca un recurso adaptado de tipo System.Drawing.Bitmap.
             </summary>
         </member>
+        <member name="P:CHA.Properties.Resources.pregunta">
+            <summary>
+              Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources.pregunta1">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
         <member name="P:CHA.Properties.Resources.Success">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources.Success1">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources.Success1__2_">
             <summary>
               Busca un recurso adaptado de tipo System.Drawing.Bitmap.
             </summary>
@@ -230,7 +371,22 @@
               Busca un recurso adaptado de tipo System.Drawing.Bitmap.
             </summary>
         </member>
+        <member name="P:CHA.Properties.Resources.Warning1">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources.warning11">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
         <member name="P:CHA.Properties.Resources.x">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources.x1">
             <summary>
               Busca un recurso adaptado de tipo System.Drawing.Bitmap.
             </summary>

@@ -12,3 +12,4 @@ C:\Users\Critian Herrera\source\repos\CHA\CHA\bin\Debug\CHA.xml
 C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.csprojAssemblyReference.cache
 C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.Componentes.Calculadora.resources
 C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.Componentes.Cargando.resources
+C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.Componentes.Dialogos.resources

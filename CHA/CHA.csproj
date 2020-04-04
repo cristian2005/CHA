@@ -66,6 +66,13 @@
     <Compile Include="Componentes\Cargando.Designer.cs">
       <DependentUpon>Cargando.cs</DependentUpon>
     </Compile>
+    <Compile Include="Componentes\Dialogo.cs" />
+    <Compile Include="Componentes\Dialogos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Componentes\Dialogos.Designer.cs">
+      <DependentUpon>Dialogos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -82,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Componentes\Cargando.resx">
       <DependentUpon>Cargando.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\Dialogos.resx">
+      <DependentUpon>Dialogos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -159,6 +169,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dT9rd798c.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pregunta.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Success.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Success1 %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warning.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alerta.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Completado.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pregunta.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
