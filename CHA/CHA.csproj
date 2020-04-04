@@ -54,6 +54,12 @@
       <DependentUpon>AlertaForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Componentes\Alertas.cs" />
+    <Compile Include="Componentes\Calculadora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Componentes\Calculadora.Designer.cs">
+      <DependentUpon>Calculadora.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -65,12 +71,17 @@
     <EmbeddedResource Include="Componentes\AlertaForm.resx">
       <DependentUpon>AlertaForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\Calculadora.resx">
+      <DependentUpon>Calculadora.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\-.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Danger.png" />
   </ItemGroup>
@@ -82,6 +93,63 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copyright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\divide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\equal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plusminus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

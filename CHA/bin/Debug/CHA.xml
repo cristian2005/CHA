@@ -33,7 +33,24 @@
             <param name="Titulo">El titulo de la alerta.</param>
             <param name="Descripcion">La descripcion de la alerta.</param>
             <param name="tipo">El tipo de alerta(cambia de color).</param>
-            <param name="interval">Segundo que durara la alerta.</param>
+            <param name="interval">Milisegundos que durará la alerta.</param>
+        </member>
+        <member name="F:CHA.Componentes.Calculadora.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CHA.Componentes.Calculadora.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:CHA.Componentes.Calculadora.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
         </member>
         <member name="T:CHA.Properties.Resources">
             <summary>
@@ -51,12 +68,107 @@
               búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
             </summary>
         </member>
+        <member name="P:CHA.Properties.Resources._">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources._0">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources._1">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources._2">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources._3">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources._4">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources._5">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources._6">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources._7">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources._8">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources._9">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources.cancel">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources.cerrar">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources.copyright">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
         <member name="P:CHA.Properties.Resources.Danger">
             <summary>
               Busca un recurso adaptado de tipo System.Drawing.Bitmap.
             </summary>
         </member>
+        <member name="P:CHA.Properties.Resources.divide">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources.equal">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
         <member name="P:CHA.Properties.Resources.Info">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources.mas">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources.minus">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources.plusminus">
             <summary>
               Busca un recurso adaptado de tipo System.Drawing.Bitmap.
             </summary>
@@ -67,6 +179,11 @@
             </summary>
         </member>
         <member name="P:CHA.Properties.Resources.Warning">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources.x">
             <summary>
               Busca un recurso adaptado de tipo System.Drawing.Bitmap.
             </summary>

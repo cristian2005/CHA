@@ -19,7 +19,7 @@ namespace CHA.Componentes.Alertas
         /// <param name="Titulo">El titulo de la alerta.</param>
         /// <param name="Descripcion">La descripcion de la alerta.</param>
         /// <param name="tipo">El tipo de alerta(cambia de color).</param>
-        /// <param name="interval">Segundo que durara la alerta.</param>
+        /// <param name="interval">Milisegundos que durará la alerta.</param>
         public static void Mostrar(string Titulo, string Descripcion, Tipo tipo, int interval)
         {
             AlertaForm alertaForm = new AlertaForm();

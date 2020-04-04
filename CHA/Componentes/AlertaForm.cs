@@ -29,18 +29,33 @@ namespace CHA.Componentes
 
         private void Timer1_Tick(object sender, EventArgs e)
         {
-
+            timer3.Start();
         }
         int interval = 0;
         //Show transition
         private void Timer2_Tick(object sender, EventArgs e)
         {
-
+            if (this.Top < 60)
+            {
+                this.Top += interval;
+                interval += 2;
+            }
+            else
+            {
+                timer2.Stop();
+            }
         }
 
         private void Timer3_Tick(object sender, EventArgs e)
         {
-
+            if (this.Opacity > 0)
+            {
+                this.Opacity -= 0.1;
+            }
+            else
+            {
+                this.Close();
+            }
         }
     }
 }

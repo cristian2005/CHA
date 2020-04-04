@@ -9,3 +9,5 @@ C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.csproj.CopyComplete
 C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.dll
 C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.pdb
 C:\Users\Critian Herrera\source\repos\CHA\CHA\bin\Debug\CHA.xml
+C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.csprojAssemblyReference.cache
+C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.Componentes.Calculadora.resources
