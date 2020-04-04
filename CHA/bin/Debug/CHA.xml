@@ -200,6 +200,48 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="T:CHA.Componentes.Splash">
+            <summary>
+            Representa un formulario con animación temporal.
+            </summary>
+        </member>
+        <member name="T:CHA.Componentes.Splash.Mydelegate">
+            <summary>
+            Ocurre cuando se termina la animación de los colores.
+            </summary>
+        </member>
+        <member name="E:CHA.Componentes.Splash.SplashTerminado">
+            <summary>
+            Ocurre cuando se termina la animación de los colores.
+            </summary>
+        </member>
+        <member name="P:CHA.Componentes.Splash.Colores">
+            <summary>
+            Listados de los colores de la animación.
+            </summary>
+        </member>
+        <member name="M:CHA.Componentes.Splash.OnCerrarSplash">
+            <summary>
+            Ocurre cuando se termina la animación de los colores.
+            </summary>
+        </member>
+        <member name="F:CHA.Componentes.Splash.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CHA.Componentes.Splash.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:CHA.Componentes.Splash.InitializeComponent">
+            <summary> 
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido de este método con el editor de código.
+            </summary>
+        </member>
         <member name="T:CHA.Properties.Resources">
             <summary>
               Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
@@ -322,6 +364,11 @@
             </summary>
         </member>
         <member name="P:CHA.Properties.Resources.Info">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CHA.Properties.Resources.laptop">
             <summary>
               Busca un recurso adaptado de tipo System.Drawing.Bitmap.
             </summary>

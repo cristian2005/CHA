@@ -13,3 +13,4 @@ C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.csprojAssemblyRefere
 C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.Componentes.Calculadora.resources
 C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.Componentes.Cargando.resources
 C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.Componentes.Dialogos.resources
+C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.Componentes.Splash.resources
