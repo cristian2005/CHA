@@ -52,6 +52,53 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="T:CHA.Componentes.Cargando">
+            <summary>
+            Representa un circulo de colores que lo puede personalizar a tu gusto.
+            </summary>
+        </member>
+        <member name="P:CHA.Componentes.Cargando.ColoresCargando">
+            <summary>
+            Lista de colores que tendra el cargando(por defecto hay 3 colores y es obligatorio tener uno).
+            </summary>
+        </member>
+        <member name="P:CHA.Componentes.Cargando.Texto">
+            <summary>
+            Agrega un texto al cargando, si no quieres texto dejalo vacio.
+            </summary>
+        </member>
+        <member name="P:CHA.Componentes.Cargando.ColorTexto">
+            <summary>
+            Representa el color del texto.
+            </summary>
+        </member>
+        <member name="P:CHA.Componentes.Cargando.IntervaloTexto">
+            <summary>
+            Representa el Intervalo que durará cada listado del Texto.
+            </summary>
+        </member>
+        <member name="P:CHA.Componentes.Cargando.IntervaloOcultarCargando">
+            <summary>
+            Representa el tiempo que durara el cargando.
+            </summary>
+        </member>
+        <member name="F:CHA.Componentes.Cargando.components">
+            <summary> 
+            Variable del diseñador necesaria.
+            </summary>
+        </member>
+        <member name="M:CHA.Componentes.Cargando.Dispose(System.Boolean)">
+            <summary> 
+            Limpiar los recursos que se estén usando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        </member>
+        <member name="M:CHA.Componentes.Cargando.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="T:CHA.Properties.Resources">
             <summary>
               Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
