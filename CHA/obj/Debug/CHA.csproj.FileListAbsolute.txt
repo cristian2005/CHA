@@ -14,3 +14,4 @@ C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.Componentes.Calculad
 C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.Componentes.Cargando.resources
 C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.Componentes.Dialogos.resources
 C:\Users\Critian Herrera\source\repos\CHA\CHA\obj\Debug\CHA.Componentes.Splash.resources
+C:\Users\Critian Herrera\source\repos\CHA\CHA\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll

@@ -242,6 +242,81 @@
             el contenido de este método con el editor de código.
             </summary>
         </member>
+        <member name="T:CHA.Componentes.TooltipPersonalizado">
+            <summary>
+            Clase que crear un tooltip con texto e imagenes y mas..
+            </summary>
+        </member>
+        <member name="F:CHA.Componentes.TooltipPersonalizado.BunifuToolTip">
+            <summary>
+            Inicializando el Tooltip
+            </summary>
+        </member>
+        <member name="F:CHA.Componentes.TooltipPersonalizado.Fondo_Tootipp">
+            <summary>
+            Color del fondo del tooltip(Por defecto es blanco).
+            </summary>
+        </member>
+        <member name="F:CHA.Componentes.TooltipPersonalizado.Border_Tootipp">
+            <summary>
+            Color del borde del tooltip(Por defecto es gris).
+            </summary>
+        </member>
+        <member name="F:CHA.Componentes.TooltipPersonalizado.TituloColor_Tootipp">
+            <summary>
+            Color del Titulo del tooltip(Por defecto es negro).
+            </summary>
+        </member>
+        <member name="F:CHA.Componentes.TooltipPersonalizado.DescripcionColor_Tootipp">
+            <summary>
+            Color del texto del tooltip(Por defecto es negro).
+            </summary>
+        </member>
+        <member name="M:CHA.Componentes.TooltipPersonalizado.Mostrar(System.String,System.Windows.Forms.Control)">
+            <summary>
+            Metodo que mostra el tooltip en un control del formulario especifico.
+            </summary>
+            <param name="Descripcion">El texto que va en el tooltip.</param>
+            <param name="control">El control donde aparecerá el tooltip.</param>
+        </member>
+        <member name="M:CHA.Componentes.TooltipPersonalizado.Mostrar(System.String,System.String,System.Windows.Forms.Control)">
+            <summary>
+            Metodo que mostra el tooltip en un control del formulario especifico.
+            </summary>
+            <param name="Descripcion">El texto que va en el tooltip.</param>
+            <param name="Titulo">El titulo que desea mostrar en el tooltip.</param>
+            <param name="control">El control donde aparecerá el tooltip.</param>
+        </member>
+        <member name="M:CHA.Componentes.TooltipPersonalizado.Mostrar(System.String,System.String,System.Windows.Forms.Control,System.Drawing.Bitmap)">
+            <summary>
+            Metodo que mostra el tooltip en un control del formulario especifico.
+            </summary>
+            <param name="Descripcion">El texto que va en el tooltip.</param>
+            <param name="Titulo">El titulo que desea mostrar en el tooltip.</param>
+            <param name="control">El control donde aparecerá el tooltip.</param>
+            <param name="imagen">El icono del titulo tooltip.</param>
+        </member>
+        <member name="M:CHA.Componentes.TooltipPersonalizado.Mostrar(System.String,System.String,System.Windows.Forms.Control,System.Drawing.Bitmap,System.Windows.Forms.UserControl)">
+            <summary>
+            Metodo que mostra el tooltip en un control del formulario especifico.
+            </summary>
+            <param name="Descripcion">El texto que va en el tooltip.</param>
+            <param name="Titulo">El titulo que desea mostrar en el tooltip.</param>
+            <param name="control">El control donde aparecerá el tooltip.</param>
+            <param name="imagen">El icono del titulo tooltip.</param>
+            <param name="userControl">En caso de que quiera mostrar un user control en vez del tooltip predeterminado</param>
+        </member>
+        <member name="M:CHA.Componentes.TooltipPersonalizado.Mostrar(System.String,System.String,System.Windows.Forms.Control,System.Drawing.Bitmap,System.Windows.Forms.UserControl,System.Boolean)">
+            <summary>
+            Metodo que mostra el tooltip en un control del formulario especifico.
+            </summary>
+            <param name="Descripcion">El texto que va en el tooltip.</param>
+            <param name="Titulo">El titulo que desea mostrar en el tooltip.</param>
+            <param name="control">El control donde aparecerá el tooltip.</param>
+            <param name="imagen">El icono del titulo tooltip.</param>
+            <param name="userControl">En caso de que quiera mostrar un user control en vez del tooltip predeterminado</param>
+            <param name="ClicUserControl">Parámetro que indica si el user control aparecerá cuando le haga clic al <paramref name="control"></paramref>.(Por defecto es false)</param>
+        </member>
         <member name="T:CHA.Properties.Resources">
             <summary>
               Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
